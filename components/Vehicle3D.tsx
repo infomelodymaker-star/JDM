@@ -21,15 +21,13 @@ declare global {
   }
 }
 
-import modelPath from '../lib/2018Toyota_LandCruiser_VR-v1.glb';
-
 /**
  * FIXED: The CDN link for the Land Cruiser model.
  * Using JSDelivr for better reliability and CORS support.
  */
 // const MODEL_URL = "https://cdn.jsdelivr.net/gh/infomelodymaker-star/2018Toyota_LandCruiser_VR-v1@main/2018Toyota_LandCruiser_VR-v1.glb";
 
-const MODEL_URL = modelPath;
+const MODEL_URL = '/lib/;
 
 // Error Boundary for the 3D scene to prevent "Uncaught Error" crashes
 interface ErrorBoundaryProps {
