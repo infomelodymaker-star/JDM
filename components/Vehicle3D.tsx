@@ -27,7 +27,7 @@ declare global {
  */
 // const MODEL_URL = "https://cdn.jsdelivr.net/gh/infomelodymaker-star/2018Toyota_LandCruiser_VR-v1@main/2018Toyota_LandCruiser_VR-v1.glb";
 
-const MODEL_URL = '/lib/;
+const MODEL_URL = '/lib/2018Toyota_LandCruiser_VR-v1.glb;
 
 // Error Boundary for the 3D scene to prevent "Uncaught Error" crashes
 interface ErrorBoundaryProps {
