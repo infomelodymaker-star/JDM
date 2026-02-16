@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Menu, Search, User, ShoppingBag } from 'lucide-react';
-import logo from '../BackgroundEraser_20260215_220037726.png'
 
 const Navbar: React.FC = () => {
   return (
@@ -11,7 +10,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center gap-8">
             <div className="flex-shrink-0 flex items-center gap-2">
               <div className="w-8 h-8 bg-red-600 rounded-sm transform rotate-45"></div>
-              <img src={logo} alt=""/>
+              <img src="/logo.png" alt=""/>
               {/* <span className="text-2xl font-black tracking-tighter text-white">JDM<span className="text-red-600">ELITE</span></span> */}
             </div>
             <div className="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-400">
