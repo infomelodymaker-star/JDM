@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Menu, Search, User, ShoppingBag } from 'lucide-react';
-import logo from '.../BackgroundEraser_20260215_220037726.png'
+import logo from '../BackgroundEraser_20260215_220037726.png'
 
 const Navbar: React.FC = () => {
   return (
